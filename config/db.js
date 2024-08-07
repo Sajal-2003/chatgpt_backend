@@ -10,7 +10,6 @@ const connectDb = async () => {
     );
   } catch (err) {
     console.log(`Mongodb Database Error ${err}`.bgRed.white);
-    connectDb();
   }
 };
 

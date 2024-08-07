@@ -6,7 +6,7 @@ const {
   jsConvertorController,
 } = require("../controllers/openAiController");
 
-const router = express.Router();
+const  router = express.Router();
 
 router.post("/summary", summaryController);
 router.post("/paragraph", paragraphController);
